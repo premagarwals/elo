@@ -1,0 +1,78 @@
+center{font-size: 2em;}
+img{
+width: 80%;
+box-shadow: 10px 10px 50px rgba(0,0,0,.4);
+border-radius: 05%;
+border: 10px solid #739354;
+}
+body {
+font-family: cursive;
+color: gray;
+font-size: 1.7em;
+margin: 10%;
+background-color: #ebebd3;
+}
+.bold{
+color: #739354;
+text-shadow: 10px 10px 10px rgba(0,0,0,.2);
+font-weight: 500;
+font-size: 1.5em;
+display: inline-block;
+padding: 5px;
+margin: 10px;
+}
+input { 
+margin-top: 5%;
+border-radius: 10px;
+text-align: center;
+color: #739354;
+background: #ebebd3;
+outline: none;
+font-size: 0.7em;
+box-shadow: inset -10px -10px 10px rgba(255,255,255,.4), inset 10px 10px 10px rgba(0,0,0,.2);
+border: none;
+text-shadow: 6px 6px 6px rgba(0,0,0,.2);
+}
+input[type="button"]{
+background: #739354;
+color: #ebebd3;
+outline: none;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.14), 0 17px 50px 0 rgba(0,0,0,0.09);
+transition: 0.2s;
+text-shadow: none;
+padding: 20px;
+text-transform: uppercase;
+font-weight: 100;
+letter-spacing: 3px;
+}
+input[type="button"]:active{
+box-shadow: none;
+font-size: 65%;
+}
+.hatke{
+font-family: cursive;
+font-size: 1em;
+color: #ebebd3;
+background: #739354;
+padding: 10px;
+box-shadow: 10px 10px 20px rgba(0,0,0,.2) , inset 10px 10px 20px rgba(255,255,255,.25), inset -10px -10px 10px rgba(0,0,0,.1);
+border-radius: 10px;
+}
+.alag{
+font-size: 0.5em;
+color: #ebebd3;
+font-family: cursive;
+}
+.warn{
+color: #739354;
+font-size: 20px;
+}
+I:nth-child(2){
+color: black;
+}
+.white{
+border-color: white;
+}
+.black{
+border-color: #363636;
+}
